@@ -1,8 +1,10 @@
 
 
+import { faConnectdevelop } from "@fortawesome/free-brands-svg-icons"
 import { faBowlFood, faFlaskVial, faMicroscope, faSyringe } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { FaMagnifyingGlass } from "react-icons/fa6"
+
+import TernaryButton from "../customButtons/TernaryButton"
 
 
 const IndustrySection = () => {
@@ -17,13 +19,16 @@ const IndustrySection = () => {
                         <div>
                             <FontAwesomeIcon icon={faSyringe} className="indIcon"/>
                             <h4 className="mt-2">Pharmaceutical</h4>
-                            <p className="custm_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam qui saepe iure molestiae, ut praesentium.</p> </div>
+                            <p className="custm_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam qui saepe iure molestiae, ut praesentium.</p> 
+                            <TernaryButton buttonName="Learn more" btnLink="#"/>
+                        </div>
                     </div>
                     <div className="col-12 col-md-4 indWhtBox">
                         <div>
-                            <FontAwesomeIcon icon={FaMagnifyingGlass} className="indIcon"/>
+                            <FontAwesomeIcon icon={faConnectdevelop} className="indIcon"/>
                             <h4 className="mt-2">Research and Development</h4>
                             <p className="custm_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam qui saepe iure molestiae, ut praesentium.</p>
+                            <TernaryButton buttonName="Learn more" btnLink="#"/>
                         </div>
                     </div>
                 </div>
@@ -33,6 +38,7 @@ const IndustrySection = () => {
                             <FontAwesomeIcon icon={faFlaskVial} className="indIcon"/>
                             <h4 className="mt-2">Chemical Manufacturing</h4>
                             <p className="custm_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam qui saepe iure molestiae, ut praesentium.</p>
+                            <TernaryButton buttonName="Learn more" btnLink="#"/>
                         </div>
                     </div>
                     <div className="col-12 col-md-4 indWhtBox">
@@ -40,6 +46,7 @@ const IndustrySection = () => {
                             <FontAwesomeIcon icon={faMicroscope} className="indIcon"/>
                             <h4 className="mt-2">Quality Control Labs</h4>
                             <p className="custm_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam qui saepe iure molestiae, ut praesentium.</p>
+                            <TernaryButton buttonName="Learn more" btnLink="#"/>
                         </div>
                     </div>
                     <div className="col-12 col-md-4 indWhtBox">
@@ -47,6 +54,7 @@ const IndustrySection = () => {
                             <FontAwesomeIcon icon={faBowlFood} className="indIcon"/>
                             <h4 className="mt-2">Food and Beverage</h4>
                             <p className="custm_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam qui saepe iure molestiae, ut praesentium.</p>
+                            <TernaryButton buttonName="Learn more" btnLink="#"/>
                         </div>
                     </div>
                 </div>

@@ -292,6 +292,7 @@ h1.cust_h1_heading {
 }
 .ctaBackgrnd {
   background: url("images/indiaMAP_vectorIMG.jpg");
+  background-attachment: fixed;
 }
 div#ctaSection {
   background: linear-gradient(to bottom, white 50% 50%, #e8eef1 30%);
@@ -343,7 +344,7 @@ div#ctaSection {
 
 /* Product Section  */
 .productSec {
-  background: #e8eef1;
+  background: #e8eef1 ;
 }
 
 /* contact section  */
@@ -805,14 +806,14 @@ div#showMap iframe {
 }
 
 /* CTA section  */
-.ctabrdr {
+/* .ctabrdr {
   border-radius: 40px;
   box-shadow: 0 2px 10px 0 #003f7d, 0 2px 18px 0 #c48820;
   padding: 0 !important;
 }
 .ctabrdr:hover {
   box-shadow: 0 2px 16px 0 #003f7d, 0 2px 26px 0 #c48820;
-}
+} */
 
 .ctaFormSubmitBtn {
   width: 10%;

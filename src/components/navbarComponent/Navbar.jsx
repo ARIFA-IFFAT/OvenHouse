@@ -46,11 +46,11 @@ const Navbar = () => {
                             <Link className="nav-link  " to="/products">Products</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link  " to="/contact">Contact</Link>
+                            <Link className="nav-link  " to="/industries">Industries</Link>
                         </li>
                     </ul>
                     <div className="d-flex gap-3 align-items-center">
-                        <PrimaryButton buttonName="Get a quote" btnLink="contact" />
+                        <PrimaryButton buttonName="Contact Now" btnLink="contact" />
                         <div className="topSMLinks">
                             <SocialMediaIcons/>
                         </div>

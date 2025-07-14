@@ -5,9 +5,9 @@ import { Link } from "react-router-dom"
 
 const CTACont = () => {
     return (
-        <div className="py-5" id="ctaSection">
-            <div className="container ctabrdr ">
-                <div className="ctaBackgrnd rounded-5">
+        <div className="pt-5" id="ctaSection">
+            <div className=" ctabrdr ">
+                <div className="ctaBackgrnd ">
                     <div className="container text-center py-5">
                         <h1 className="cust_h1_heading"><span className="blueColorText">Your Trusted Partner in </span> <span className="coloredText">Precision Manufacturing </span></h1>
                         <p className="text-muted custm_p">Discover the perfect blend of quality and innovation with Oven House. Together, we shape the future.</p>

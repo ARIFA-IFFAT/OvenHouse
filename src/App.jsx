@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import AdminDashboard from './pages/AdminDashboard';
 import Navbar from './components/navbarComponent/Navbar';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Industries from './pages/Industries';
 import Products from './pages/Products';
 import Company from './pages/Company';
 import WhatsappChat from './components/whatsappChatComponent/WhatsappChat';
@@ -33,7 +33,7 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/company' element={<Company/>}/>
         <Route path='/products' element={<Products/>}/>
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/industries' element={<Industries/>}/>
         <Route path='/admin' element={<AdminDashboard />} />
       </Routes>
       {/* CTA component */}

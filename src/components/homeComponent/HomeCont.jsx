@@ -6,7 +6,7 @@ import HeroSection from "./HeroSection"
 import ProductSection from "./ProductSection"
 import ServiceHomeSection from "./ServiceHomeSection"
 import ShowMap from "./ShowMap"
-import WhyChooseUs from "../aboutComponent/WhyChooseUs"
+// import WhyChooseUs from "../aboutComponent/WhyChooseUs"
 import IndustrySection from "./IndustrySection"
 import Testimonials from "./Testimonials"
 
@@ -40,9 +40,9 @@ const HomeCont = () => {
             <div>
                 <ContactHomeSection/>
             </div>
-            <div>
+            {/* <div>
                 <WhyChooseUs/>
-            </div>
+            </div> */}
             <div>
                 <Testimonials/>
             </div>
