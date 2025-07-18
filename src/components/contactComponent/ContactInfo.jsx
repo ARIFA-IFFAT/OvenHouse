@@ -1,4 +1,4 @@
-//  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 import 'aos/dist/aos.css';
 import AOS from "aos";
@@ -24,13 +24,13 @@ const ContactInfo = () => {
                             style={{ textAlign: "center" }}
                             className="infoBox"
                         >
-                            <div className="cnstDetails p-2 p-md-3" >
-                                {/* <FontAwesomeIcon icon={item.icon} className="const_icons mb-3 p-3 rounded-circle "></FontAwesomeIcon> */}
+                            <a href={item.urls} target="_blank" className="contLinks">
+                            <div className="cnstDetails p-2 p-md-3" >                                
                                 <img src={item.gifUrl} className="const_icons mb-3 rounded-circle" style={{width: '75px'}}/>
-                                
                                 <h3 className="custm_h3 mt-5">{item.title}</h3>
                                 <p className="custm_p">{item.content}</p>
                             </div>
+                            </a>
                         </div>
 
                     )

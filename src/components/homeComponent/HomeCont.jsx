@@ -6,9 +6,9 @@ import HeroSection from "./HeroSection"
 import ProductSection from "./ProductSection"
 import ServiceHomeSection from "./ServiceHomeSection"
 import ShowMap from "./ShowMap"
-// import WhyChooseUs from "../aboutComponent/WhyChooseUs"
 import IndustrySection from "./IndustrySection"
 import Testimonials from "./Testimonials"
+import RecentProjectSection from "./RecentProjectSection"
 
 const HomeCont = () => {
     return (
@@ -35,14 +35,14 @@ const HomeCont = () => {
                 <IndustrySection/>
             </div>
             <div>
+                <RecentProjectSection/>
+            </div>
+            <div>
                 <ShowMap/>
             </div>
             <div>
                 <ContactHomeSection/>
             </div>
-            {/* <div>
-                <WhyChooseUs/>
-            </div> */}
             <div>
                 <Testimonials/>
             </div>

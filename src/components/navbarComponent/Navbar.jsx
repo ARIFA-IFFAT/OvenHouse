@@ -50,7 +50,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <div className="d-flex gap-3 align-items-center">
-                        <PrimaryButton buttonName="Contact Now" btnLink="contact" />
+                        <PrimaryButton buttonName="Contact Us" btnLink="/contact" />
                         <div className="topSMLinks">
                             <SocialMediaIcons/>
                         </div>

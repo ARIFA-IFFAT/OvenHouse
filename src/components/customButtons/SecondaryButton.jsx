@@ -14,7 +14,7 @@ const SecondaryButton = ({buttonName, btnLink}) => {
                     <FontAwesomeIcon icon={faPaperPlane} className="button_icon" />
                 </a>
             ):(
-                <Link to={btnLink} target="_blank" className="custm_btn_secondary">{buttonName} <FontAwesomeIcon icon={faPaperPlane} className="button_icon"></FontAwesomeIcon></Link>
+                <Link to={btnLink} className="custm_btn_secondary">{buttonName} <FontAwesomeIcon icon={faPaperPlane} className="button_icon"></FontAwesomeIcon></Link>
             )}
             
 

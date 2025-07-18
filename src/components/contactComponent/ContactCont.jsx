@@ -19,21 +19,6 @@ const ContactCont = () => {
 
     return (
         <>
-            {/* <div className="" style={{ position: 'relative', width: '100%' }}>
-                <video autoPlay muted loop className="const_bg_video w-100">
-                    <source src="/images/Contact us.mp4" type="video/mp4" />
-                </video>
-                <div className="const_content container d-grid">
-                    <div className="row justify-content-between">
-                        <div className="col-6 col-md-4">
-
-                            <TopContactForm />
-                        </div>
-                    </div>
-                </div>
-
-            </div> */}
-
             <div className="contact_bg_img">
                 <div className="container" >
                     <div className="height_in_banner"></div>
@@ -42,8 +27,6 @@ const ContactCont = () => {
 
                 </div>
             </div>
-
-            {/* Location */}
             <div className="container p-5">
                 <div data-aos='fade-up'>
                     <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Where To </span><span className="coloredText">Find Us</span></h1>

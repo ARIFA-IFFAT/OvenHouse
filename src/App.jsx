@@ -17,6 +17,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Services from './pages/Services';
 import FooterCont from './components/footerComponent/FooterCont';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path='/company' element={<Company/>}/>
         <Route path='/products' element={<Products/>}/>
         <Route path='/industries' element={<Industries/>}/>
+        <Route path='/contact' element={<Contact/>}/>
         <Route path='/admin' element={<AdminDashboard />} />
       </Routes>
       {/* CTA component */}

@@ -8,7 +8,7 @@ const PrimaryButton = ({buttonName, btnLink}) => {
     return (
         <div className="primaryBtn">
                 <span className="">
-                    <Link to={btnLink} target="_blank" className="custm_btn_primary ">{buttonName} <FontAwesomeIcon icon={faPaperPlane} className="button_icon"></FontAwesomeIcon></Link>
+                    <Link to={btnLink} className="custm_btn_primary ">{buttonName} <FontAwesomeIcon icon={faPaperPlane} className="button_icon"></FontAwesomeIcon></Link>
                 </span>            
         </div>
     )

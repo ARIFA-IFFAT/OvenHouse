@@ -3,7 +3,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import ContactDetails from '../../data/ContactDetails'
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ContactHomeSection = () => {
     useEffect(() => {
@@ -23,17 +22,18 @@ const ContactHomeSection = () => {
                         <div>
                             {ContactDetails.map((item) => (
                                 <div key={item.id}>
-                                    <div className="vertBox d-flex justify-content-between align-items-start mb-4 ">
-                                        {/* <FontAwesomeIcon icon={item.icon} className="vertBox_icon mb-3 p-3 rounded-circle "></FontAwesomeIcon> */}
-                                        <img alt="moveImg" src={item.gifUrl} className="vertBox_icon mb-3 rounded-circle" style={{ width: '75px' }} />
-                                        <div>
-                                            <h3 className="custm_h3 blueColorText">{item.title}</h3>
-                                            <p className="custm_p m-0 faded_p">{item.content}</p>
+                                    <a href={item.urls} target="_blank" className="contLinks">
+                                        <div className="vertBox d-flex justify-content-between align-items-start mb-4 ">
+                                            <img alt="moveImg" src={item.gifUrl} className="vertBox_icon mb-3 rounded-circle" style={{ width: '75px' }} />
+                                            <div>
+                                                <h3 className="custm_h3 blueColorText">{item.title}</h3>
+                                                <p className="custm_p m-0 faded_p">{item.content}</p>
+                                            </div>
+                                            <div>
+                                                <p className="bigNumber">{item.id}</p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p className="bigNumber">{item.id}</p>
-                                        </div>
-                                    </div>
+                                    </a>
                                 </div>
                             ))}
                         </div>
