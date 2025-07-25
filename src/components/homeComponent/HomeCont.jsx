@@ -9,6 +9,7 @@ import ShowMap from "./ShowMap"
 import IndustrySection from "./IndustrySection"
 import Testimonials from "./Testimonials"
 import RecentProjectSection from "./RecentProjectSection"
+import FaqSection from "./FaqSection"
 
 const HomeCont = () => {
     return (
@@ -45,6 +46,9 @@ const HomeCont = () => {
             </div>
             <div>
                 <Testimonials/>
+            </div>
+            <div>
+                <FaqSection/>
             </div>
            
         </>

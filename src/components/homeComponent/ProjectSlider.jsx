@@ -43,7 +43,7 @@ const ProjectSlider = () => {
         <Carousel
           responsive={responsive}
           infinite
-          // autoPlay
+          autoPlay
           swipeable
           draggable
           showDots
@@ -54,13 +54,13 @@ const ProjectSlider = () => {
           {projectData.map((project, index) => (
             <div
               key={index}
-              className="bg-white shadow-sm rounded-4 overflow-hidden"
+              className="bg-white shadow-sm rounded-2 overflow-hidden"
               // style={{ height: "350px" }}
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-100"
+                className="w-100 projImg rounded-3"
                 style={{ height: "320px", objectFit: "cover" }}
               />
               <div className="p-3">

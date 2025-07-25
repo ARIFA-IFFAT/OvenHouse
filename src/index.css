@@ -40,7 +40,7 @@ h1.hero_heading {
   animation: custmAnime 6s infinite;
 }
 
-/* Testimonial  */
+/* Testimonial home page */
 div#testom .card {
     border: none !important;
     box-shadow: 0 2px 8px 0 #fafafa;
@@ -51,7 +51,6 @@ div#testom .card:hover {
     box-shadow: 0 2px 8px 0 #e8eef1;
     cursor: pointer;
 }
-
 
 
 @keyframes custmAnime {
@@ -65,6 +64,19 @@ div#testom .card:hover {
     transform: scale(0.9);
   }
 }
+
+
+/* faq home page  */
+section.faq-row {
+    background: #f0f0f0;
+    margin-bottom: 10px;
+    padding-left: 10px !important;
+    border-radius: 5px;
+    font-family: 'Host Grotesk';
+}
+
+
+
 
 /* Profile section */
 
@@ -343,7 +355,8 @@ div#ctaSection {
 
 /* Product Section  */
 .productSec {
-  background: #e8eef1 ;
+  /* background: #e8eef1 ; */
+  background: #f1f1f1;
 }
 
 /* contact section  */
@@ -965,7 +978,7 @@ div#homeContFormSec {
 /* Project section n home page */
 .react-multi-carousel-track {
     gap: 10px;
-    height: 400px;
+    height: 420px;
 }
 .react-multi-carousel-dot button{
   width: 50px !important;
@@ -973,11 +986,25 @@ div#homeContFormSec {
   height: 6px !important;
   border: none !important;
 }
-
-
-
-
-
+.react-multi-carousel-dot-list{
+  bottom: -15px;
+}
+.projImg
+ {
+    transform: scale(0.95);
+    transition: all 0.3s ease-in-out;
+}
+.projImg:hover
+ {
+    transform: scale(0.9);
+}
+.react-multi-carousel-item:hover .projImg
+ {
+    transform: scale(0.9);
+}
+.react-multi-carousel-item{
+  cursor: pointer;
+}
 
 
 

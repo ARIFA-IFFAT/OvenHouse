@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 const CTACont = () => {
     return (
-        <div className="pt-5" id="ctaSection">
+        <div className="mt-5" id="ctaSection">
             <div className=" ctabrdr ">
                 <div className="ctaBackgrnd ">
                     <div className="container text-center py-5">
