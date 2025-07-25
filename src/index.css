@@ -275,11 +275,10 @@ h1.cust_h1_heading {
   border-bottom-right-radius: 8px;
 }
 .teamBG {
-  background: url("images/teamBG.jpg");
+  background: url("images/teamBG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 .cntFormBG {
   background-repeat: no-repeat;
@@ -287,11 +286,13 @@ h1.cust_h1_heading {
   background-position: center;
 }
 .backgroundBlack {
-  background: url("images/BlackBackground.jpg");
+  /* background: url("images/BlackBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-position: center; */
+
+  background: #0a1b40;
+
 }
 .cont_right {
   background: url("images/factory-workshop.png");
@@ -456,31 +457,44 @@ textarea:focus {
   border: 1px solid transparent;
   font-size: 30px;
 }
+
+.stage_box {
+  border: 1px solid #066bb1;
+  border-radius: 10px;
+  width: 400px;
+  background: #0a1b40;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  z-index: 9999;
+}
 .stage_box:hover {
   background: linear-gradient(45deg, #0166af93, #066bb1);
   border: 1px solid #066bb1;
   cursor: pointer;
 }
-
-.stage_box {
-  border: 1px solid gray;
-  border-radius: 10px;
-  width: 400px;
-  background: #000000ad;
-  transition: all 0.3s ease-in-out;
+.stage_box:hover .topCont {
+  display: none;
 }
 .hiddenCont {
   width: 0;
   display: none;
   transition: all 0.3s ease-in-out;
 }
-.stage_box:hover .topCont {
-  display: none;
-}
 .stage_box:hover .hiddenCont {
   display: block;
   width: 100%;
 }
+.stage_box:after {
+    content: "⟹";
+    color: #b8b4b4;
+    position: absolute;
+    right: -45px;
+    top: 45%;
+    font-size: 30px;
+    z-index: 0;
+}
+
+
 
 .teamContainer {
   display: flex;

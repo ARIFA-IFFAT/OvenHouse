@@ -3,8 +3,6 @@ import SecondaryButton from "../customButtons/SecondaryButton"
 const AbtHomeSection = () => {
     return (
         <div className="container my-5">
-
-
             <div className="row">
                 <div className="col-12 col-md-6">
                     <h1 className="cust_h1_heading mb-3"><span className="blueColorText">A Legacy of </span><span className="coloredText">Excellence</span></h1>

@@ -36,7 +36,7 @@ const StagesOfDev = () => {
     return (
         <>
             <div className='container' id='productionStage' data-aos="fade-up">
-                <h1 className="cust_h1_heading">Production <span className="coloredText">stages </span></h1>
+                <h1 className="cust_h1_heading">Production stages</h1>
                 <p className="text-white custm_p mb-5">From concept to completion, we ensure precision, quality, and efficiency at every step of the manufacturing process.</p>
             </div>
             <div className="container d-md-flex gap-5 mb-5">

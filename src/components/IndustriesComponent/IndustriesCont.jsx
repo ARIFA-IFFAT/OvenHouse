@@ -93,16 +93,16 @@ useEffect(()=>{
           <p>We provide durable, heat-resistant equipment for various chemical production and testing needs. Our products are capable of handling harsh compounds and are built for continuous industrial use, ensuring safety, performance, and process reliability in demanding environments.</p>
           <div className="">
             <p className="points_btn d-flex gap-2 align-items-center mb-3 py-2 px-3 fw-bold rounded-5" style={{ width: 'max-content' }}>
-              <img src="/icons/medicine-100.png" alt="" style={{ width: '30px' }} />Resistant to corrosive chemicals and vapors
+              <img src="/icons/chemical-100.png" alt="" style={{ width: '30px' }} />Resistant to corrosive chemicals and vapors
             </p>
             <p className="points_btn d-flex gap-2 align-items-center mb-3 py-2 px-3 fw-bold rounded-5" style={{ width: 'max-content' }}>
-              <img src="/icons/medicine-100.png" alt="" style={{ width: '30px' }} />High-temperature tolerance
+              <img src="/icons/chemical-100.png" alt="" style={{ width: '30px' }} />High-temperature tolerance
             </p>
             <p className="points_btn d-flex gap-2 align-items-center mb-3 py-2 px-3 fw-bold rounded-5" style={{ width: 'max-content' }}>
-              <img src="/icons/medicine-100.png" alt="" style={{ width: '30px' }} />Suitable for synthesis, evaporation, and drying processes
+              <img src="/icons/chemical-100.png" alt="" style={{ width: '30px' }} />Suitable for synthesis, evaporation, and drying processes
             </p>
             <p className="points_btn d-flex gap-2 align-items-center mb-3 py-2 px-3 fw-bold rounded-5" style={{ width: 'max-content' }}>
-              <img src="/icons/medicine-100.png" alt="" style={{ width: '30px' }} />Easy to clean & maintain for industrial labs
+              <img src="/icons/chemical-100.png" alt="" style={{ width: '30px' }} />Easy to clean & maintain for industrial labs
             </p>
           </div>
           <div className="use_case">

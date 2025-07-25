@@ -11,7 +11,7 @@ const TeamCont = () => {
             <div className="teamBG">
                 <div className="container py-5 m-auto">
                     <div className="text-center" data-aos='fade-up' >
-                        <h1 className="cust_h1_heading text-white">Meet <span className="coloredText">the team</span></h1>
+                        <h1 className="cust_h1_heading text-white">Meet the team</h1>
                         <p className="custm_P text-white">
                             At the heart of our success is a dedicated team of skilled professionals who bring expertise, innovation, and passion to everything we do. Each member of our team plays a vital role in ensuring the highest quality of our products and exceptional service to our clients. Together, we work towards a shared vision of excellence and customer satisfaction, committed to delivering solutions you can trust.
                         </p>

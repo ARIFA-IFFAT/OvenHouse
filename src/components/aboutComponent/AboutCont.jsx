@@ -27,12 +27,12 @@ const AboutCont = () => {
         },
         {
             id: 2,
-            src: '/images/IMG-2.jpg',
+            src: '/images/IMG-2.png',
             alt: 'image 2'
         },
         {
             id: 3,
-            src: '/images/IMG-4.jpg',
+            src: '/images/IMG-3.png',
             alt: 'image 3'
         },
 
