@@ -18,11 +18,13 @@ import "slick-carousel/slick/slick-theme.css";
 import Services from './pages/Services';
 import FooterCont from './components/footerComponent/FooterCont';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       {/* Navigation bar */}
       <Navbar/> 
       {/* Floating Whatsapp chat */}
