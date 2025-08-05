@@ -258,13 +258,7 @@ h1.cust_h1_heading {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.eachProdBG {
-  background: url("images/proDecImg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
+
 .teamBG {
   background: url("images/teamBG.png");
   background-repeat: no-repeat;
@@ -412,29 +406,10 @@ textarea:focus {
   box-shadow: 0 2px 16px lightgray;
 }
 
-.prodBox {
-  border: 2px solid #377cae;
-  border-radius: 10px;
-  background: #377cae;
-}
-.prodBox:hover {
-  cursor: pointer;
-}
-.floatLogo {
-  position: absolute;
-  right: -25px;
-  bottom: -10%;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  padding: 5px;
-}
+
+/* Product page  */
 .prod_col {
   position: relative;
-}
-.prod_img {
-  width: 230px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
 
 .const_icons {
@@ -1054,6 +1029,8 @@ input#subSubmit {
 #allServ:hover .curvRighTop, 
 #allServ:hover .curvLefBttm {
   border: 5px solid #003f7d;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .curveBox:hover .tickIcon {
