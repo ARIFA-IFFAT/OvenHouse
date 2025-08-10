@@ -423,6 +423,10 @@ textarea:focus {
   font-size: 30px;
 }
 
+
+/* About page  */
+
+
 .stage_box {
   border: 1px solid #066bb1;
   border-radius: 10px;
@@ -440,11 +444,6 @@ textarea:focus {
 .stage_box:hover .topCont {
   display: none;
 }
-.hiddenCont {
-  width: 0;
-  display: none;
-  transition: all 0.3s ease-in-out;
-}
 .stage_box:hover .hiddenCont {
   display: block;
   width: 100%;
@@ -458,7 +457,28 @@ textarea:focus {
   font-size: 30px;
   z-index: 0;
 }
-
+.hiddenCont {
+  width: 0;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+.hiddenCont h4{
+  position: relative;
+}
+.hiddenCont h4::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: white;
+    display: block;
+    position: absolute;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+.stage_box:hover .hiddenCont h4::after{
+  
+  width: 100%;
+}
 .teamContainer {
   display: flex;
   flex-wrap: wrap;

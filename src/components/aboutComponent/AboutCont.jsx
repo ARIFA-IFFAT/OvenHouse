@@ -40,17 +40,17 @@ const AboutCont = () => {
     const images_2 = [
         {
             id: 1,
-            src: '/images/IMG-11.jpg',
+            src: '/images/IMG-11.png',
             alt: 'iamge 1'
         },
         {
             id: 2,
-            src: '/images/IMG-22.jpg',
+            src: '/images/IMG-22.png',
             alt: 'image 2'
         },
         {
             id: 3,
-            src: '/images/IMG-33.jpg',
+            src: '/images/IMG-33.png',
             alt: 'image 3'
         },
     ];
