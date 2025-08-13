@@ -1,4 +1,4 @@
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons"
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "react-router-dom"
 
@@ -11,10 +11,10 @@ const SecondaryButton = ({buttonName, btnLink}) => {
             {isHashLink?(
                 <a href={btnLink} className="custm_btn_secondary">
                     {buttonName}
-                    <FontAwesomeIcon icon={faPaperPlane} className="button_icon" />
+                    <FontAwesomeIcon icon={faArrowRightLong} className="button_icon" />
                 </a>
             ):(
-                <Link to={btnLink} className="custm_btn_secondary">{buttonName} <FontAwesomeIcon icon={faPaperPlane} className="button_icon"></FontAwesomeIcon></Link>
+                <Link to={btnLink} className="custm_btn_secondary">{buttonName} <FontAwesomeIcon icon={faArrowRightLong} className="button_icon"></FontAwesomeIcon></Link>
             )}
             
 

@@ -18,9 +18,19 @@ useEffect(()=>{
 
 
   return (
+    <>
+       <div className='bannerImg'>
+                <div className="bnnrSpc"></div>
+                    <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Innovating Across Industries</span></h1>
+                    <p className='custm_p text-center text-muted mb-3'>Technology that adapts to your needs.</p>
+                <div className="d-flex gap-2 justify-content-center">
+                  <div className="blueline"></div>
+                  <div className="yellowline"></div>
+                </div>
+                <div className="bnnrSpc"></div>           
+            </div>
 
     <div className="container ">
-
       <div className="mb-5">
         <h1 className="cust_h1_heading mb-3 text-center"><span className="blueColorText">Industries </span><span className="coloredText">We Serve</span></h1>
         <p className="text-muted text-center custm_p">Tailored solutions for diverse sectors — built for performance, precision, and durability.</p>
@@ -172,7 +182,7 @@ useEffect(()=>{
 
 
     </div>
-
+</>
   )
 }
 

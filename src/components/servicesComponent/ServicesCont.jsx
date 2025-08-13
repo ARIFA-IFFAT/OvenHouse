@@ -9,6 +9,17 @@ useEffect(()=>{
 });
 
   return (
+    <>
+       <div className='bannerImg'>
+                <div className="bnnrSpc"></div>
+                    <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Our Services</span></h1>
+                    <p className='custm_p text-center text-muted mb-3'>Precision-driven solutions to power your progress.</p>
+                <div className="d-flex gap-2 justify-content-center">
+                  <div className="blueline"></div>
+                  <div className="yellowline"></div>
+                </div>
+                <div className="bnnrSpc"></div>           
+            </div>
     <div className="container my-5">
       <div className="row">
         <div className="col-12 col-md-6" data-aos="fade-up">
@@ -23,6 +34,7 @@ useEffect(()=>{
         <AllServices/>
       </div>
     </div>
+    </>
   )
 }
 

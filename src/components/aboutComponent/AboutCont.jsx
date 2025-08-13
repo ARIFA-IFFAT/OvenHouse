@@ -57,13 +57,15 @@ const AboutCont = () => {
 
     return (
         <>
-            <div className="about_cust_bg">
-                <div className="container">
-                    <div className="height_in_banner"></div>
-                    <p className="text-white text-center mb-0 ">Innovation and quality you can trust</p>
-                    <h1 className="text-center text-white bannerHeading" style={{ fontSize: '50px' }}>About us</h1>
-                    <div className="height_in_banner"></div>
+        <div className='bannerImg'>
+                <div className="bnnrSpc"></div>
+                    <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Oven House - Precision in Every Creation</span></h1>
+                    <p className='custm_p text-center text-muted mb-3'>Manufacturing excellence in ovens, incubators, and lab equipment since day one.</p>                
+                <div className="d-flex gap-2 justify-content-center">
+                  <div className="blueline"></div>
+                  <div className="yellowline"></div>
                 </div>
+                <div className="bnnrSpc"></div>           
             </div>
             <div className="my-5" id="aboutSec">
                 <div className="container ">

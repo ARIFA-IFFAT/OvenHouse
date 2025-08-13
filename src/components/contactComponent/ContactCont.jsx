@@ -19,15 +19,18 @@ const ContactCont = () => {
 
     return (
         <>
-            <div className="contact_bg_img">
-                <div className="container" >
-                    <div className="height_in_banner"></div>
-                    <h1 className="text-center text-white" style={{ fontSize: '50px' }}>Contact us</h1>
-                    <div className="height_in_banner"></div>
-
+            <div className='bannerImg'>
+                <div className="bnnrSpc"></div>
+                    <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Contact Us</span></h1>
+                    <p className='custm_p text-center text-muted mb-3'>Let&apos;s Connect — We&apos;re Here to Help You Succeed.</p>
+                <div className="d-flex gap-2 justify-content-center">
+                  <div className="blueline"></div>
+                  <div className="yellowline"></div>
                 </div>
+                <div className="bnnrSpc"></div>           
             </div>
-            <div className="container p-5">
+
+            <div className="container">
                 <div data-aos='fade-up'>
                     <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Where To </span><span className="coloredText">Find Us</span></h1>
                     <p className='custm_p text-center text-muted mb-5'>Please call/visit on working hours.</p>

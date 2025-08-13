@@ -241,24 +241,30 @@ h1.cust_h1_heading {
   font-size: 70px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
+.bnnrSpc{
+  height: 200px;
+}
+.blueline {
+    content: '';
+    height: 3px;
+    width: 50px;
+    background: #003f7d;
+}
+.yellowline {
+    content: '';
+    height: 3px;
+    width: 50px;
+    background: #c48820;
+}
 
 /* Background images */
-.contact_bg_img {
-  background: url("images/const_bg_img.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.about_cust_bg {
-  background: url("images/about_bg_img.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.prod_cust_bg {
-  background: url("images/prod_cust_bg.png");
+.bannerImg{
+  background: url("images/arhcs_banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
 }
-
 .teamBG {
   background: url("images/teamBG.png");
   background-repeat: no-repeat;
@@ -271,11 +277,6 @@ h1.cust_h1_heading {
   background-position: center;
 }
 .backgroundBlack {
-  /* background: url("images/BlackBackground.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-
   background: #0a1b40;
 }
 .cont_right {
@@ -747,7 +748,7 @@ a.google_review_link:hover {
   transition: all 0.3s ease-in-out;
 }
 .custm_btn_primary:hover svg.button_icon {
-  transform: rotate(45deg);
+  transform: translateX(7px);
 }
 .custm_btn_secondary {
   background: #d4af37;
@@ -760,7 +761,7 @@ a.google_review_link:hover {
   transition: all 0.3s ease-in-out;
 }
 .custm_btn_secondary:hover svg.button_icon {
-  transform: rotate(45deg);
+  transform: translateX(7px);
 }
 svg.button_icon {
   transition: all 0.3s ease-in-out;
