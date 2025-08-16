@@ -13,7 +13,7 @@ const IndustrySection = () => {
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12 col-md-4 ">
-                        <h1 className="cust_h1_heading mb-3"><span className="text-white">Industries </span><span className="coloredText">We Serve</span></h1>
+                        <h2 className="cust_h2_heading mb-3"><span className="text-white">Industries </span><span className="coloredText">We Serve</span></h2>
                     </div>
                     <div className="col-12 col-md-4 indWhtBox">
                         <div>

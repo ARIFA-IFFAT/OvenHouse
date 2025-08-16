@@ -1,6 +1,7 @@
 const ProductDetails = [
   {
     id: 1,
+    slug: "bod-incubator",   // 👈 unique slug
     prodName: 'TM-5 : BOD INCUBATOR',
     img: 'images/product1.png',
     prodDesc:
@@ -8,6 +9,7 @@ const ProductDetails = [
   },
   {
     id: 2,
+    slug: "fume-hood",   // 👈 unique slug
     prodName: 'TM-10 : FUME HOOD',
     img: 'images/product2.png',
     prodDesc:

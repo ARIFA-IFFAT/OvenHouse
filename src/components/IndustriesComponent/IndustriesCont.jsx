@@ -32,7 +32,7 @@ useEffect(()=>{
 
     <div className="container ">
       <div className="mb-5">
-        <h1 className="cust_h1_heading mb-3 text-center"><span className="blueColorText">Industries </span><span className="coloredText">We Serve</span></h1>
+        <h2 className="cust_h2_heading mb-3 text-center"><span className="blueColorText">Industries </span><span className="coloredText">We Serve</span></h2>
         <p className="text-muted text-center custm_p">Tailored solutions for diverse sectors — built for performance, precision, and durability.</p>
       </div>
 

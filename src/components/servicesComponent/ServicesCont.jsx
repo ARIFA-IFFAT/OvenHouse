@@ -12,7 +12,7 @@ useEffect(()=>{
     <>
        <div className='bannerImg'>
                 <div className="bnnrSpc"></div>
-                    <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Our Services</span></h1>
+                    <h2 className="cust_h2_heading text-center"><span className='blueColorText'>Our Services</span></h2>
                     <p className='custm_p text-center text-muted mb-3'>Precision-driven solutions to power your progress.</p>
                 <div className="d-flex gap-2 justify-content-center">
                   <div className="blueline"></div>

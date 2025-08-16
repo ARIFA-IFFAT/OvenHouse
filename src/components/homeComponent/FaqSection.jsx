@@ -74,7 +74,7 @@ const FaqSection = () => {
         <div className="container my-5 pt-5">
             <div className="row">
                 <div className="col-12 col-md-6">
-                    <h1 className="cust_h1_heading mb-3"><span className="blueColorText">Frequently </span><span className="coloredText">Asked Questions</span></h1>
+                    <h2 className="cust_h2_heading mb-3"><span className="blueColorText">Frequently </span><span className="coloredText">Asked Questions</span></h2>
                     <p className="text-muted custm_p">
                         Quick answers to the most common questions about our products and services.
                     </p>

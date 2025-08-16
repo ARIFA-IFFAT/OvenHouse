@@ -19,13 +19,18 @@ const ProductList = () => {
 
   return (
     <div className="row">
-      {ProductDetails.map((product, index) => (
+      {ProductDetails.map((product) => (
 
         <div key={product.id} className="col-12 col-md-3  mb-5 prod_col"  >
-          <div className="text-center prodBox" data-aos='fade-up' data-aos-duration={index * 250}>
-            <img src={product.img} alt="" className="prod_img" style={{ width: '100%' }} />
+          <div className="text-center prodBox" data-aos='fade-up'>
+            <Link to={`/product/${product.slug}`}>            
+              <img src={product.img} alt="" className="prod_img" style={{ width: '100%' }} />
+            </Link>
+              {/* <img src={product.img} alt="" className="prod_img" style={{ width: '100%' }} /> */}
             <div className="eachProdBG my-3 ">
-              <h6 className="mb-3">{product.prodName}</h6>
+              <Link to={`/product/${product.slug}`}>
+                <h6 className="mb-3">{product.prodName}</h6>
+              </Link>
               <p>{product.prodDesc}</p>
               <div className="my-3">
               <Link to="/contact" target="_blank" className=" py-1 px-2 border border-1 rounded text-decoration-none" style={{width: '100%', display: 'inline-block'}}>Get a quote <FontAwesomeIcon icon={faArrowAltCircleDown} className='ms-2' /></Link>

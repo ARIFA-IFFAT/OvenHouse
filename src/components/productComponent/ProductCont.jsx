@@ -19,7 +19,7 @@ const ProductCont = () => {
     <>
     <div className='bannerImg'>
                 <div className="bnnrSpc"></div>
-                    <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Thermomech Products</span></h1>
+                    <h2 className="cust_h2_heading text-center"><span className='blueColorText'>Thermomech Products</span></h2>
                     <p className='custm_p text-center text-muted mb-3'>Precision-engineered solutions for every laboratory need.</p>
                 <div className="d-flex gap-2 justify-content-center">
                   <div className="blueline"></div>

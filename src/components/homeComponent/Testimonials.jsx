@@ -92,10 +92,10 @@ const Testimonials = () => {
   return (
     <div className="container text-center my-5" id="testom">
       <div>
-        <h1 className="cust_h1_heading">
+        <h2 className="cust_h2_heading">
           <span className="blueColorText">What our </span>
           <span className="coloredText">Clients Say</span>
-        </h1>
+        </h2>
         <p className="custm_p text-muted">
           Client feedback that reflects our commitment to quality and service.
         </p>

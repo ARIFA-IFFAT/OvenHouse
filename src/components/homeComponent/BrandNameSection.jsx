@@ -13,7 +13,7 @@ const BrandNameSection = () => {
                         <div className="brndNameCont py-5 text-center">
                             <img src="images/ARHCS_logo_transparent.png" alt="logo" className="whitebsLogo py-3 " style={{ width: "100px" }} />
                             <div className="brndNm">
-                            {/* <h1 className="cust_h1_heading blueColorText">THERMO-MECH</h1> */}
+                            {/* <h2 className="cust_h2_heading blueColorText">THERMO-MECH</h2> */}
                                 <AnimatedText text="THERMO-MECH" />
                             </div>
                             <p className="custm_p text-muted fw-semibold fs-5">Our signature brand, delivering innovation, reliability, and excellence in every product.</p>

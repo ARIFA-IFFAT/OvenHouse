@@ -30,7 +30,7 @@ useEffect((()=>{
     <div className="" id="happyClient">
       <div className="row">
         <div className="col-12 col-md-6" data-aos="fade-right">
-          <h1 className="cust_h1_heading"><span className="blueColorText">Happy</span> <span className="coloredText">clients</span></h1>
+          <h2 className="cust_h2_heading"><span className="blueColorText">Happy</span> <span className="coloredText">clients</span></h2>
           <p className="custm_p text-muted">At the heart of our success lies the trust and satisfaction of our clients. We take pride in building lasting relationships by delivering beyond expectations and turning visions into reality. Your happiness drives our growth, and every smile we create inspires us to go further. With every partnership, we aim to empower dreams and craft solutions that leave a lasting impression.</p>          
           <div className="google_review_div mt-4"><a href="https://maps.app.goo.gl/F4dF5zmaABBrmiubA" target="_blank" className="google_review_link">
           <img className="google_review" src="/images/google-review.png" alt="googleRate" /><FontAwesomeIcon className="hidden_icon" icon={faAnglesRight} ></FontAwesomeIcon>

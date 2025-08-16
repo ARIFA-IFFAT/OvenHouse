@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
         
             <div className="container my-5">
                 <div data-aos="fade-up">
-                    <h1 className="text-center blueColorText cust_h1_heading">Why <span className="coloredText">choose us</span></h1>
+                    <h2 className="text-center blueColorText cust_h2_heading">Why <span className="coloredText">Choose Us</span></h2>
                     <p className="mb-5 text-center custm_p text-muted">Experience unmatched quality, innovation, and customer-centric solutions designed to exceed your expectations.</p>
                 </div>
                 <div className="d-md-flex gap-1 justify-content-between align-items-center">

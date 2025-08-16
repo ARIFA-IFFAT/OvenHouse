@@ -32,7 +32,7 @@ const ContactCont = () => {
 
             <div className="container">
                 <div data-aos='fade-up'>
-                    <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Where To </span><span className="coloredText">Find Us</span></h1>
+                    <h2 className="cust_h2_heading text-center"><span className='blueColorText'>Where To </span><span className="coloredText">Find Us</span></h2>
                     <p className='custm_p text-center text-muted mb-5'>Please call/visit on working hours.</p>
 
                 </div>
@@ -46,7 +46,7 @@ const ContactCont = () => {
             <div className="cntFormBG">
                 <div className='container py-5 m-auto'>
                     <div data-aos='fade-up'>
-                        <h1 className="text-center mb-2 text-dark cust_h1_heading" ><span className="blueColorText">Connect</span> <span className="coloredText">with us</span></h1>
+                        <h2 className="text-center mb-2 text-dark cust_h2_heading" ><span className="blueColorText">Connect</span> <span className="coloredText">with Us</span></h2>
                         <p className='custm_p text-center text-muted mb-5'>Fill this form, soon we will get back to you.</p>
                     </div>
                     <div className="row">

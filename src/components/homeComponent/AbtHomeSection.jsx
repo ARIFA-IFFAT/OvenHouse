@@ -5,7 +5,7 @@ const AbtHomeSection = () => {
         <div className="container my-5">
             <div className="row">
                 <div className="col-12 col-md-6">
-                    <h1 className="cust_h1_heading mb-3"><span className="blueColorText">A Legacy of </span><span className="coloredText">Excellence</span></h1>
+                    <h2 className="cust_h2_heading mb-3"><span className="blueColorText">A Legacy of </span><span className="coloredText">Excellence</span></h2>
                 </div>
                 <div className="col-12 col-md-6">
                     <p className="text-muted custm_p">At ARHCS, we specialize in crafting high-quality laboratory and kitchen equipment. Guided by innovation and precision, we aim to empower industries with reliable tools and exceptional service.</p>

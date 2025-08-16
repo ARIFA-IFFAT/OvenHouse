@@ -22,7 +22,7 @@ const ProductSection = () => {
             </div>
           </div>
           <div className="col-12 col-md-6 mb-5 mb-md-0">
-            <h1 className="cust_h1_heading mb-3"><span className="blueColorText">Discover. Excellence. </span><span className="coloredText">Innovate.</span></h1>
+            <h2 className="cust_h2_heading mb-3"><span className="blueColorText">Discover. Excellence. </span><span className="coloredText">Innovate.</span></h2>
             <p className="text-muted fs-5 fw-semibold">Innovation & Quality You Can Trust</p>
             <p className="text-muted custm_p">Ready to elevate your business with top-quality equipment? Let&apos;s create something great together — <Link to="/contact" >Connect with Us Today!</Link></p>
             <div className="prodBtnRow" >

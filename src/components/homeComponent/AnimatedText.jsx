@@ -22,7 +22,7 @@ useEffect(()=>{
 }, [index, text]);
 
   return (
-            <h1 className="cust_h1_heading blueColorText">{displayText}</h1>
+            <h2 className="cust_h2_heading blueColorText">{displayText}</h2>
    
   )
 }

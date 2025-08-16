@@ -9,7 +9,7 @@ const CTACont = () => {
             <div className=" ctabrdr ">
                 <div className="ctaBackgrnd ">
                     <div className="container text-center py-5">
-                        <h1 className="cust_h1_heading"><span className="blueColorText">Your Trusted Partner in </span> <span className="coloredText">Precision Manufacturing </span></h1>
+                        <h2 className="cust_h2_heading"><span className="blueColorText">Your Trusted Partner in </span> <span className="coloredText">Precision Manufacturing </span></h2>
                         <p className="text-muted custm_p">Discover the perfect blend of quality and innovation with Oven House. Together, we shape the future.</p>
                         <div className="btnBox my-4">
                             <span className="custm_btn_prim_brdr">

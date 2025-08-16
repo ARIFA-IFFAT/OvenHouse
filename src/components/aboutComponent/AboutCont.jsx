@@ -59,7 +59,7 @@ const AboutCont = () => {
         <>
         <div className='bannerImg'>
                 <div className="bnnrSpc"></div>
-                    <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Oven House - Precision in Every Creation</span></h1>
+                    <h1 className="cust_h1_heading text-center"><span className='blueColorText'>Oven House</span></h1>
                     <p className='custm_p text-center text-muted mb-3'>Manufacturing excellence in ovens, incubators, and lab equipment since day one.</p>                
                 <div className="d-flex gap-2 justify-content-center">
                   <div className="blueline"></div>
@@ -71,7 +71,7 @@ const AboutCont = () => {
                 <div className="container ">
                     <div className="row py-3">
                         <div className="col-12 col-md-6 mb-5" data-aos="fade-right">
-                            <h1 className="cust_h1_heading mb-3"><span className="blueColorText">Who </span><span className="coloredText">we are </span></h1>
+                            <h2 className="cust_h2_heading mb-3"><span className="blueColorText">Who </span><span className="coloredText">we are </span></h2>
                             <p className="text-muted custm_p">
                                 We are a trusted manufacturer of high-quality <span className="text_highlight">laboratory instruments and commercial kitchen equipment</span>, catering to a diverse range of industries. With years of expertise and a strong commitment to excellence, we have established ourselves as a reliable partner for businesses, institutions, and professionals who demand precision, performance, and durability.
                             </p>
@@ -99,7 +99,7 @@ const AboutCont = () => {
                             <AbtCarousel images={images_2} />
                         </div>
                         <div className="col-12 col-md-6 mb-5" data-aos="fade-left">
-                            <h1 className="mb-3 cust_h1_heading "><span className="blueColorText">Our</span> <span className="coloredText">mission & vision </span></h1>
+                            <h2 className="mb-3 cust_h2_heading "><span className="blueColorText">Our</span> <span className="coloredText">Mission & Vision </span></h2>
                             <p className="text-muted custm_p">
                                 <span className="text_highlight">Our mission</span>, Empowering laboratories and commercial kitchens with world-class, innovative, and reliable solutions. We prioritize quality, efficiency, and sustainability to enhance performance and exceed client expectations.
                             </p>

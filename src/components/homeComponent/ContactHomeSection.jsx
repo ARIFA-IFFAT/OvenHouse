@@ -13,7 +13,7 @@ const ContactHomeSection = () => {
 
         <div id="homeContFormSec" className="my-5 ">
             <div className="container py-5" >
-                <h1 className="cust_h1_heading mb-3 text-center"><span className="text-white">How Can we Help?</span></h1>
+                <h2 className="cust_h2_heading mb-3 text-center"><span className="text-white">How Can we Help?</span></h2>
                 <p className="text-white custm_p text-center">Got a question or need assistance? Our team is ready to provide the perfect solution—let&apos;s talk!</p>
             </div>
             <div className="container pb-5">
