@@ -14,8 +14,8 @@ const CompanyRatings = () => {
 
     const ratingDetails = [
         { id: 1, val: "15+", term: "Work Experience", ratingIcon: faSuitcase },
-        { id: 2, val: "55+", term: "Projects Per Year", ratingIcon: faGears },
-        { id: 3, val: "13K+", term: "Projects Per Month", ratingIcon: faLightbulb },
+        { id: 2, val: "55K+", term: "Projects Per Year", ratingIcon: faGears },
+        { id: 3, val: "60+", term: "Projects Per Month", ratingIcon: faLightbulb },
         { id: 4, val: "100+", term: "Happy Clients", ratingIcon: faHelmetSafety },
     ];
 

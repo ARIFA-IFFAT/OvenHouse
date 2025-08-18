@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import AllServices from "./AllServices"; 
+import SecondaryButton from "../customButtons/SecondaryButton"
+
 import Aos from "aos";
 
 const ServicesCont = () => {
@@ -28,7 +30,10 @@ useEffect(()=>{
         <div className="col-12 col-md-6">
           <p className="text-muted custm_p">We specialize in designing and manufacturing high-quality laboratory and kitchen equipment tailored to your needs. From seamless product integration and expert training to reliable maintenance and support.</p>
           <p className="text-muted custm_p">We offer end-to-end solutions that ensure performance, safety, and long-term efficiency.</p>
-        </div>
+        <div className="my-5">
+                        <SecondaryButton buttonName="Contact us" btnLink="contact"/>
+                    </div>
+        </div>        
       </div>
       <div className="row">
         <AllServices/>
