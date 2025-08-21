@@ -33,7 +33,7 @@ useEffect(()=>{
         <div className="my-5">
                         <SecondaryButton buttonName="Contact us" btnLink="contact"/>
                     </div>
-        </div>        
+        </div>       
       </div>
       <div className="row">
         <AllServices/>

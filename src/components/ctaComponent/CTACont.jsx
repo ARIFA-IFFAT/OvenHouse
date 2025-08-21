@@ -13,7 +13,7 @@ const CTACont = () => {
                         <p className="text-muted custm_p">Discover the perfect blend of quality and innovation with Oven House. Together, we shape the future.</p>
                         <div className="btnBox my-4">
                             <span className="custm_btn_prim_brdr">
-                                <Link to="contact" class="custm_btn_primary">Get a quote <FontAwesomeIcon icon={faPaperPlane} className="button_icon"></FontAwesomeIcon></Link>
+                                <Link to="contact" className="custm_btn_primary">Get a quote <FontAwesomeIcon icon={faPaperPlane} className="button_icon"></FontAwesomeIcon></Link>
                             </span>
                         </div>
                     </div>

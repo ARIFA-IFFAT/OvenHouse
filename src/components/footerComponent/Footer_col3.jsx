@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"
+
+import { HashLink } from "react-router-hash-link"
 
 const Footer_col3 = () => {
     return (
@@ -6,19 +7,19 @@ const Footer_col3 = () => {
             <h3>Consulting Industries</h3>
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <Link className="nav-link  " to="/industries#Pharma">Pharmaceutical Industry</Link>
+                    <HashLink smooth className="nav-link  " to="/industries#Pharma">Pharmaceutical Industry</HashLink>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link  " to="/industries#R_D">Research and Development</Link>
+                    <HashLink smooth className="nav-link  " to="/industries#R_D">Research and Development</HashLink>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link  " to="/industries#Chemical">Chemical Manufacturing</Link>
+                    <HashLink smooth className="nav-link  " to="/industries#Chemical">Chemical Manufacturing</HashLink>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link  " to="/industries#Q_C">Quality Control Labs</Link>
+                    <HashLink smooth className="nav-link  " to="/industries#Q_C">Quality Control Labs</HashLink>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link  " to="/industries#Food">Food and Beverage</Link>
+                    <HashLink smooth className="nav-link  " to="/industries#Food">Food and Beverage</HashLink>
                 </li>
             </ul>
         </div>

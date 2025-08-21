@@ -12,7 +12,7 @@ const TernaryButton = ({buttonName, btnLink}) => {
 }
 
 TernaryButton.propTypes = {
-    buttonName: PropTypes.string.isrequired,
+    buttonName: PropTypes.string.isRequired,
     btnLink: PropTypes.string.isRequired,
 }
 
