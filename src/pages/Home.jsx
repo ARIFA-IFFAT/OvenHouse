@@ -6,8 +6,8 @@ const Home = () => {
     return (
         <>
             <Helmet>
-                <title>About Us | Oven House – Thermomech | ARHCS Bhubaneswar</title>
-                <meta name="description" content="Oven House (ARHCS), under the Thermomech brand, is a leading manufacturer of laboratory instruments, commercial kitchen equipment, hot air ovens, incubators, curing tanks, and more in Bhubaneswar, Odisha." />
+                <title>Thermomech | Laboratory Instruments & Commercial Kitchen Equipment</title>
+                <meta name="description" content="Manufacturer of hot air ovens, BOD incubators, hot plates, curing tanks, and lab instruments. Thermomech delivers reliable, high-quality equipment for industries." />
             </Helmet>
             <HomeCont />
         </>

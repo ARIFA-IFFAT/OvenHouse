@@ -18,7 +18,7 @@ const BrandNameSection = () => {
                             </div>
                             <p className="custm_p text-muted fw-semibold fs-5">Our signature brand, delivering innovation, reliability, and excellence in every product.</p>
                             <div className="mt-5 d-flex gap-3 justify-content-center">
-                                <SecondaryButton buttonName="Talk to us" btnLink="contact" />
+                                <SecondaryButton buttonName="Connect with Us" btnLink="contact" />
                                 <PrimaryButton buttonName="Explore" btnLink="company" />
                             </div>
 

@@ -1,25 +1,20 @@
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { Link } from "react-router-dom"
+
+import PrimaryButton from "../customButtons/PrimaryButton";
 
 
 const CTACont = () => {
     return (
-        <div className="mt-5" id="ctaSection">
-            <div className=" ctabrdr ">
+        <div className="my-5 container" id="ctaSection">
                 <div className="ctaBackgrnd ">
                     <div className="container text-center py-5">
-                        <h2 className="cust_h2_heading"><span className="blueColorText">Your Trusted Partner in </span> <span className="coloredText">Precision Manufacturing </span></h2>
-                        <p className="text-muted custm_p">Discover the perfect blend of quality and innovation with Oven House. Together, we shape the future.</p>
-                        <div className="btnBox my-4">
-                            <span className="custm_btn_prim_brdr">
-                                <Link to="contact" className="custm_btn_primary">Get a quote <FontAwesomeIcon icon={faPaperPlane} className="button_icon"></FontAwesomeIcon></Link>
-                            </span>
+                        <h2 className="cust_h2_heading"><span className="blueColorText">Building the Future of </span> <span className="coloredText">Laboratory & Industrial Solutions </span></h2>
+                        <p className="text-muted custm_p">High-performance ovens, incubators, and equipment—crafted with precision, trusted by industries worldwide.</p>
+                        <div className=" my-4">
+                        <PrimaryButton buttonName="Contact Us Now" btnLink="contact" />
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

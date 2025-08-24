@@ -1,25 +1,46 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import PrimaryButton from "../customButtons/PrimaryButton"
 import SocialMediaIcons from "../socialmediaComponent/SocialMediaIcons";
 
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [shrink, setShrink] = useState(false);
 
     const toggleNavbar = () => {
         setIsOpen(!isOpen);
     }
+
+useEffect(()=>{
+    const handleScroll = () =>{
+    if(window.scrollY>50){
+    setShrink(true)
+    }
+    else{
+setShrink(false)
+    }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return ()=> window.removeEventListener("scroll", handleScroll);
+    },[]);
+
     return (
-        <nav className="navbar navbar-expand-lg ">
-            <div className="container" id="site_header">
-                <Link className="navbar-brand" rel="stylesheet" to="/"><img src="images/ARHCS_logo_transparent.png" alt="arhcs_logo" className="w-25"></img></Link>
-                <button className="navbar-toggler"
+        <nav className={`navbar navbar-expand-lg shadow-sm ${shrink ? 'shrink' : ''}`}>
+            <div className="container " id="site_header">
+                <Link className="navbar-brand m-0" rel="stylesheet" to="/">
+                <img src="images/ARHCS_logo_transparent.png" alt="arhcs_logo" className={`logo-img ${shrink ? 'small' : ''}`}>
+                </img>
+                </Link>
+
+                {/* Toggler for Mobile */}
+                <button className="navbar-toggler ms-auto"
                     onClick={toggleNavbar}
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
+                    data-bs-target="#navbarMob"
+                    aria-controls="navbarMob"
                     aria-expanded={isOpen}
                     aria-label="Toggle navigation"
                 >
@@ -28,8 +49,8 @@ const Navbar = () => {
                         (<span className="navbar-toggler-icon"></span>)
                     }
                 </button>
-                <div className={` collapse navbar-collapse ${isOpen ? 'show' : ''} `} id="navbarNav">
-                    <ul className="navbar-nav">
+                <div className={` collapse navbar-collapse ${isOpen ? 'show' : ''} `} id="navbarMob">
+                    <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <Link className="nav-link  " to="/">Home</Link>
                         </li>
@@ -48,9 +69,13 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link className="nav-link  " to="/industries">Industries</Link>
                         </li>
-                    </ul>
-                    <div className="d-flex gap-3 align-items-center">
+                        <div className=" my-3 my-sm-0">
+
                         <PrimaryButton buttonName="Contact Us" btnLink="/contact" />
+                        </div>
+
+                    </ul>
+                    <div className="d-flex gap-3 align-items-center my-3 my-sm-0">
                         <div className="topSMLinks">
                             <SocialMediaIcons/>
                         </div>
@@ -61,3 +86,6 @@ const Navbar = () => {
     );
 }
 export default Navbar;
+
+
+
