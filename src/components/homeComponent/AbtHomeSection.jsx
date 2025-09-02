@@ -12,7 +12,7 @@ const AbtHomeSection = () => {
                     <p className="text-muted custm_p">We&apos;re here to provide the solutions you need—whether it&apos;s laboratory equipment, commercial kitchen tools, or custom manufacturing. Need assistance? Our team is ready to help.</p>
 
                     <div className="my-5">
-                        <SecondaryButton buttonName="Contact us" btnLink="contact"/>
+                        <SecondaryButton buttonName="Know More" btnLink="about"/>
                     </div>
                 </div>
 

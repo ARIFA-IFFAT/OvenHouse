@@ -1,7 +1,7 @@
-import SocialMediaIcons from "../socialmediaComponent/SocialMediaIcons"
+import SocialMediaIcons from "../socialmediaComponent/SocialMediaIcons";
 
 
-const Footer_col1 = () => {
+const FooterCol1 = () => {
     return (
         <div id="quickBrand" className="mb-5 mb-md-0">
 
@@ -15,4 +15,4 @@ const Footer_col1 = () => {
     )
 }
 
-export default Footer_col1
+export default FooterCol1

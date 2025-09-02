@@ -26,7 +26,7 @@ const ProductSection = () => {
             <p className="text-muted fs-5 fw-semibold">Innovation & Quality You Can Trust</p>
             <p className="text-muted custm_p">Ready to elevate your business with top-quality equipment? Let&apos;s create something great together — <Link to="/contact" >Connect with Us Today!</Link></p>
             <div className="prodBtnRow" >
-              <div className="d-flex gap-3 align-items-center justify-space-between">
+              <div className="d-md-flex gap-3 align-items-center justify-space-between">
                 <div className="points_btn d-flex gap-2 align-items-center mb-3 py-2 px-3  rounded-5" style={{ width: 'max-content' }}>
                   <img src="/images/point.png" className="" style={{ width: '20px' }} />
                   <p className="m-0">BOD INCUBATOR</p>
@@ -36,7 +36,7 @@ const ProductSection = () => {
                   <p className="m-0">HOT AIR OVEN</p>
                 </div>
               </div>
-              <div className="d-flex gap-3 align-items-center justify-space-between">
+              <div className="d-md-flex gap-3 align-items-center justify-space-between">
                 <div className="points_btn d-flex gap-2 align-items-center mb-3 py-2 px-3  rounded-5" style={{ width: 'max-content' }}>
                   <img src="/images/point.png" className="" style={{ width: '20px' }} />
                   <p className="m-0">FUME HOOD</p>

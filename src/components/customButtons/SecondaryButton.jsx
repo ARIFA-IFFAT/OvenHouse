@@ -10,11 +10,11 @@ const SecondaryButton = ({buttonName, btnLink}) => {
         <div className="secondaryBtn">
             {isHashLink?(
                 <a href={btnLink} className="custm_btn_secondary">
-                    {buttonName}
+                    <span>{buttonName}</span>
                     <FontAwesomeIcon icon={faArrowRightLong} className="button_icon" />
                 </a>
             ):(
-                <Link to={btnLink} className="custm_btn_secondary">{buttonName} <FontAwesomeIcon icon={faArrowRightLong} className="button_icon"></FontAwesomeIcon></Link>
+                <Link to={btnLink} className="custm_btn_secondary"><span>{buttonName}</span> <FontAwesomeIcon icon={faArrowRightLong} className="button_icon"></FontAwesomeIcon></Link>
             )}
             
 

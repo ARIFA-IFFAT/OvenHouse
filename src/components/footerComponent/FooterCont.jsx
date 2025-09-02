@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Footer_col1 from "./Footer_col1.jsx";
-import Footer_col2 from "./Footer_col2.jsx";
-import Footer_col3 from "./Footer_col3.jsx";
-import Footer_col4 from "./Footer_col4.jsx";
+import FooterCol1 from "./FooterCol1.jsx";
+import FooterCol2 from "./FooterCol2.jsx";
+import FooterCol3 from "./FooterCol3.jsx";
+import FooterCol4 from "./FooterCol4.jsx";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const FooterCont = () => {
@@ -10,10 +10,10 @@ const FooterCont = () => {
         <footer className="productSec ">
             <div id="site_footer" className="container py-5">
                 <div className="row">
-                    <div className="col-md-3"><Footer_col1/></div>
-                    <div className="col-md-3"><Footer_col2/></div>
-                    <div className="col-md-3"><Footer_col3/></div>
-                    <div className="col-md-3"><Footer_col4/></div>
+                    <div className="col-md-3"><FooterCol1/></div>
+                    <div className="col-md-3"><FooterCol2/></div>
+                    <div className="col-md-3"><FooterCol3/></div>
+                    <div className="col-md-3"><FooterCol4/></div>
                 </div>
                 
             </div>

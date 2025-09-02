@@ -190,6 +190,7 @@ a.nav-link {
 .navbar-nav {
   gap: 10px;
   margin: 0 auto;
+  align-items: center;
 }
 div#navbarNav {
   justify-content: space-between;
@@ -205,7 +206,7 @@ nav.navbar {
 }
 /* Logo transition */
 .logo-img {
-  width: 80px; /* default size */
+  width: 70px; /* default size */
   transition: all 0.3s ease-in-out;
 }
 
@@ -215,7 +216,6 @@ nav.navbar {
 
 /* Navbar shrink effect */
 .navbar.shrink {
-  /* padding: 2px 0; */
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
 }
@@ -246,7 +246,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a {
   font-family: "Alata", serif;
   font-weight: 400;
   font-style: normal;
@@ -256,7 +257,7 @@ h1 {
   text-transform: uppercase;
 }
 
-p {
+p, li {
   font-family: "Host Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -369,9 +370,30 @@ h2.cust_h2_heading {
 
 /* Product Section  */
 .productSec {
-  /* background: #e8eef1 ; */
   background: #f1f1f1;
 }
+.eachProdBG a {
+    color: #c48820;
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* contact section  */
 
@@ -450,6 +472,21 @@ textarea:focus {
   background: white;
   border: 1px solid transparent;
   font-size: 30px;
+}
+a.shareLnk {
+    font-size: 18px;
+    color: #003f7d;
+    transition: all 0.4s ease-in-out;
+}
+a.shareLnk:hover {
+    color: #c48820;
+}
+a.proBtn1:hover {
+    border: 1px solid #c48820 !important;
+    color: #c48820 !important;
+}
+a.proBtn2:hover {
+    background: #c48820 !important;
 }
 
 
@@ -744,37 +781,55 @@ a.google_review_link:hover {
 }
 
 /* Custom buttons by Arifa */
-.custm_btn_primary {
-  background: #fafafa;
-  padding: 10px 20px;
-  border: 5px solid #c2c2c2;
+.custm_btn_primary span {
+  background: #c48820;
+  padding: 6px 16px;
   border-radius: 30px;
-  text-decoration: none;
-  color: #003f7d;
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
+a.custm_btn_primary {
+    text-decoration: none !important;
+}
 .custm_btn_primary:hover svg.button_icon {
   transform: translateX(7px);
 }
-.custm_btn_secondary {
-  background: #d4af37;
+.primaryBtn svg.button_icon {
+    background: #003f7d;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.custm_btn_secondary span{
+  background: #003f7d;
   color: #fff;
-  padding: 9px 15px;
+  padding: 6px 16px;
   border-radius: 30px;
-  border: 5px solid #c48820;
   font-size: 18px;
-  text-decoration: none;
+  font-weight: 500;
   transition: all 0.3s ease-in-out;
+}
+a.custm_btn_secondary {
+    text-decoration: none !important;
 }
 .custm_btn_secondary:hover svg.button_icon {
   transform: translateX(7px);
 }
 svg.button_icon {
   transition: all 0.3s ease-in-out;
-}
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 22px;
+  font-weight: 500;
 
+}
+.secondaryBtn svg.button_icon {
+    background: #c48820;
+    margin-left: 5px;
+    color: #fff;
+}
 .ternaryButton a {
   font-size: 18px;
   color: #fff;
@@ -784,6 +839,19 @@ svg.trBtn_icon {
   margin-left: 10px;
   font-size: 20px;
 }
+.primaryBtn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondaryBtn a{ 
+    display: flex;
+    align-items: center;
+}
+
+
+
+
 
 /* Show google map  */
 div#showMap {
@@ -1020,8 +1088,8 @@ input#subEmail {
   margin-bottom: 15px;
 }
 input#subSubmit {
-  border: 1px solid #b0b0b5;
-  background: #000;
+  border: none;
+  background: #003f7d;
   box-shadow: 0 4px 8px 0 lightgray;
   border-radius: 40px;
   height: 50px;
@@ -1030,9 +1098,18 @@ input#subSubmit {
   color: #fff;
   font-size: 22px;
   font-weight: 600;
+  transition: all 0.3s ease-in-out;
 }
+input#subSubmit:hover {
+  background: #c48820;
+}
+
+
 .socialLinks .socialIcons {
   justify-content: flex-start;
+}
+div#site_footer .navbar-nav {
+    align-items: flex-start;
 }
 
 /* Services page */
@@ -1156,6 +1233,12 @@ input#subSubmit {
   }
   .custm_btn_primary {
     font-size: 16px;
+  }
+  svg.button_icon {
+    font-size: 16px;
+  }
+  .ternaryButton a {
+  font-size: 16px;
   }
   .srvHmContBox {
     width: 90% !important;

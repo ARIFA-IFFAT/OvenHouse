@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const Footer_col2 = () => {
+const FooterCol2 = () => {
     return (
         <div id="quickLinks" className="mb-5 mb-md-0">
             <h3>Quick Links</h3>
@@ -28,4 +28,4 @@ const Footer_col2 = () => {
     )
 }
 
-export default Footer_col2
+export default FooterCol2

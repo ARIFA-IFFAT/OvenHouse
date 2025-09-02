@@ -1,5 +1,4 @@
 import PrimaryButton from "../customButtons/PrimaryButton"
-import SecondaryButton from "../customButtons/SecondaryButton"
 import AnimatedText from "./AnimatedText"
 // import CircularProgressBar from "./CircularProgressBar"
 
@@ -18,8 +17,7 @@ const BrandNameSection = () => {
                             </div>
                             <p className="custm_p text-muted fw-semibold fs-5">Our signature brand, delivering innovation, reliability, and excellence in every product.</p>
                             <div className="mt-5 d-flex gap-3 justify-content-center">
-                                <SecondaryButton buttonName="Connect with Us" btnLink="contact" />
-                                <PrimaryButton buttonName="Explore" btnLink="company" />
+                                <PrimaryButton buttonName="Know Our Company" btnLink="company" />
                             </div>
 
                         </div>

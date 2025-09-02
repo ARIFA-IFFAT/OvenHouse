@@ -1,7 +1,7 @@
 import SubcribeForm from "./SubcribeForm"
 
 
-const Footer_col4 = () => {
+const FooterCol4 = () => {
     return (
         <div id="quickLinks" className="mb-5 mb-md-0">
             <h3>Subscribe to Our Newsletter</h3>
@@ -11,4 +11,4 @@ const Footer_col4 = () => {
     )
 }
 
-export default Footer_col4
+export default FooterCol4

@@ -1,7 +1,7 @@
 
 import { HashLink } from "react-router-hash-link"
 
-const Footer_col3 = () => {
+const FooterCol3 = () => {
     return (
         <div id="industry" className="mb-5 mb-md-0">
             <h3>Consulting Industries</h3>
@@ -26,4 +26,4 @@ const Footer_col3 = () => {
     )
 }
 
-export default Footer_col3
+export default FooterCol3

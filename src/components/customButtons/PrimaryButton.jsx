@@ -7,9 +7,8 @@ import PropTypes from "prop-types";
 const PrimaryButton = ({buttonName, btnLink}) => {
     return (
         <div className="primaryBtn">
-                <span className="">
-                    <Link to={btnLink} className="custm_btn_primary ">{buttonName} <FontAwesomeIcon icon={faArrowRightLong} className="button_icon"></FontAwesomeIcon></Link>
-                </span>            
+                    <Link to={btnLink} className="custm_btn_primary "><span >{buttonName}</span> <FontAwesomeIcon icon={faArrowRightLong} className="button_icon"></FontAwesomeIcon></Link>
+                           
         </div>
     )
 }
