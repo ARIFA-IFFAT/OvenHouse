@@ -20,6 +20,7 @@ import FooterCont from './components/footerComponent/FooterCont';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import ProductPage from './components/productComponent/ProductPage';
+import Login from './pages/Login';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         <Route path='/industries' element={<Industries/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/admin' element={<AdminDashboard />} />
+        <Route path='/login' element={<Login/>} />
       </Routes>
       {/* CTA component */}
       <CTACont/>
